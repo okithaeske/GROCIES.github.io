@@ -472,10 +472,11 @@ h2{
 }
 .m_text{
     font-size: 10px;
+
 }
 .home_content{
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 60%;
     transform: translate(-50%, -50%)
 }

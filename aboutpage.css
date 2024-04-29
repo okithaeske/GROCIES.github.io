@@ -164,10 +164,14 @@ body{
     width: 95%;
     border:1px solid black;
     border-radius: 1em;
+    height: auto;
 }
 
 .fort_branch{
     border-radius: 1em;
+    width: 100%;
+    height: 400px;
+     
     
 }
 
@@ -188,6 +192,8 @@ body{
 
 .kandy_branch{
     border-radius: 1em;
+    width: 100%;
+    height: 400px;
     
 }
 
@@ -208,6 +214,8 @@ body{
 
 .galle_branch{
     border-radius: 1em;
+    width: 100%;
+    height: 400px;
 }
 
 
