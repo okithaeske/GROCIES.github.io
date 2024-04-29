@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Grocery website for grocies</title>
 
  
-    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/header_and_footer.css">
     
 
 
@@ -21,13 +22,10 @@
 
     <nav class="navbar">
         <a href="homepage.html">Home</a>
-        <a href="aboutpage.html">About</a>
-        <a href="#" id="product">Products</a>
-        <body>
-            
-
-        <a href="order.html">Order</a>
-        <a href="loyalty.html">Loyalty</a>
+        <a href="html/aboutpage.html">About</a>
+        <a href="html/product_page.html">Products</a>
+        <a href="html/order.html">Order</a>
+        <a href="html/loyalty.html">Loyalty</a>
     </nav>
 
     <div class="icons">
@@ -40,53 +38,67 @@
 </header> 
   <!--end of section header -->
   
-<body>
+<body>  
 
 
     
-    <main>
+    <main class="h_content">
     
         <!--start of home section -->
         <section class="home" id="home">
             <div style="position: relative; text-align: center;">
                 <img src="Images/home/main_banner.jpg" alt="main_banner " class="m_banner">
                 <div class="home_content">
-                <h2>Welcome to Grocies</h2>
-                <br>
-                    <p class="m_text">We take pride in offering a wide range of high-quality products, from fresh produce to other essentials
-                        your one-stop destination for all your grocery needs</p><br><input type="button" value=" Shop now "  class="m_btn">
+                        <h2>Welcome to Grocies</h2>
+                        <br>
+                        <p class="m_text">We take pride in offering a wide range of high-quality products, from fresh produce to other essentials
+                            your one-stop destination for all your grocery needs</p>
+                            <br>
+                        <a href="html/product_page.html"><input type="button" value=" Shop now "  class="m_btn"></a>
                 </div> 
             </div>
         </section>
         <!--end of home section -->
 
         <!--start of features: selction-->
-        <div class="boxcontainer">
-            <section class="q_accessg">
-                <div style="position: relative;">
-                    <img src="Images/home/vegetables_q.access.jpeg" alt="quick acces vegetables" class="q_access1 ">
-                    <p class="q_accessh1">Vegetables</p>
-                </div>
-            </section>
-            <section class="q_accessg">
-                <div style="position: relative;">
-                <img src="Images/home/cosmetics_q.access.jpeg" alt="quick acces dairy" class="q_access2 ">
-                <p class="q_accessh2">Cosmetics</p>
-                </div>
-            </section>
-            <section class="q_accessg">
-                <div style="position: relative;">
-                <img src="Images/home/dairy_q.access.jpeg" alt="quick acces dairy" class="q_access3 ">
-                <p class="q_accessh3">Dairy</p>
-                </div>
-                
-            </section>
-            <section class="q_accessp">
-                <div style="position: relative;">
-                <p style="position: absolute; top:-120px; left: 600px; color: rgb(40, 51, 39); font-size: 60px;">Fresh<br>Choices<br>Happy<br>Hearts!!</p>
-                </div>   
-            </section>
+        <div class="container">
+            <div class="boxcontainer">
+                <section class="q_accessg">
+            
+                    <div style="position: relative;">
+                        
+                        <a href="html/vegetablepage.html"><img src="Images/home/vegetables_q.access.jpeg" alt="quick acces vegetables" class="q_access1 "></a>
+                        <p class="q_accessh1">Vegetables</p>
+                        
+                    </div>
+                 
+                    
+                </section>
+                <section class="q_accessg">
+                    <div style="position: relative;">
 
+                        <a href="html/cosmeticspage.html"><img src="Images/home/cosmetics_q.access.jpeg" alt="quick acces dairy" class="q_access2 "></a>
+                        <p class="q_accessh2">Cosmetics</p>
+
+                    </div>
+                </section>
+                <section class="q_accessg">
+                    <div style="position: relative;">
+
+                        <a href="html/dairypage.html"><img src="Images/home/dairy_q.access.jpeg" alt="quick acces dairy" class="q_access3 "></a>
+                        <p class="q_accessh3">Dairy</p>
+
+                    </div>
+                    
+                </section>
+                <section class="q_accessp">
+                    <div style="position: relative;">
+                        <a href="html/aboutpage.html"><p style="position: absolute; top:-120px; left: 600px; color: rgb(40, 51, 39); font-size: 60px;">
+                        Fresh<br>Choices<br>Happy<br>Hearts!!</p></a>
+                    </div>   
+                </section>
+
+            </div>
         </div>
 
         <!--end of features:selection-->
@@ -94,70 +106,77 @@
         <!--start of item description-->
 
             <div class="product_des">
-                <section class="vege_des"> 
-                    <h3 class="vege_head">Vegetables<h3> 
-                    <ol class="vege_p">
-                        <li>Your Satisfaction, Our Commitment:</li>
-                        <br>
-                            <p> We are committed to providing you with the freshest, highest quality vegetables.<br>
-                        If you’re not satisfied with your purchase,
-                        let us know,<br>and we’ll make it right. Because here, your health and happiness are what matter most.<br><br> You can purchase;
-                        <ul class="vege_list">
-                            <li>Carrots</li>
-                            <li>Tomatoes</li>
-                            <li>Chillies</li>
-                            <li>Cabbages</li>
-                            <li>ect.</li>
-
-                        </ul></p>
-                        <br>
-                        <li>Fresh Picks Every Day:</li>
-                        <br>
-                        <p> Our produce aisle is a daily celebration of the earth’s yield. <br> We handpick the finest vegetables, ensuring that you get the crispest <br>lettuce, 
-                            the juiciest tomatoes, and the most aromatic herbs. <br> From farm to fork,
-                            we maintain the integrity of our vegetables,<br> so you enjoy them at their peak.</p>
-                            <br>
-                        <li>Seasonal Selections</li>
-                        <br>
-                        <p>Embrace the seasons with our ever-changing assortment of seasonal vegetables. Enjoy the tender asparagus of spring, the juicy tomatoes of summer,
-                            the hearty pumpkins of fall, and the robust cabbages of winter.
-                            Seasonal eating not only tastes better but also supports local farming and reduces environmental impact.</p>
-                        </ol>    
-                    <img src="Images/home/vege_des.jpeg" class="vege_des_img">
-                </section>
-
-                <section class="dairy_des">
-                    <h3 class="dairy_head">Dairies<h3> 
-                        <ol class="dairy_p">
+                <div class="vege_des"> 
+                    <section class="vege_content">
+                        <h3 class="vege_head">Vegetables<h3> 
+                        <ol class="vege_p">
                             <li>Your Satisfaction, Our Commitment:</li>
                             <br>
-                                <p> We are committed to providing you with the finest, highest quality dairy.<br>
+                                <p> We are committed to providing you with the freshest, highest quality vegetables.<br>
                             If you’re not satisfied with your purchase,
-                            let us know, and we’ll <br>make it right. Because here, your health and happiness are what matter most.<br>
-                            
-                            
+                            let us know,<br>and we’ll make it right. Because here, your health and happiness are what matter most.<br><br> You can purchase;
+                            <ul class="vege_list">
+                                <li>Carrots</li>
+                                <li>Tomatoes</li>
+                                <li>Chillies</li>
+                                <li>Cabbages</li>
+                                <li>ect.</li>
+
+                            </ul></p>
                             <br>
-                            <li>Quality You Can Trust:</li>
+                            <li>Fresh Picks Every Day:</li>
                             <br>
-                            <p>Our commitment to quality means we ensure every dairy product on our shelves meets strict standardsbr <br> for freshness and purity.
-                                We believe in the wholesome, natural benefits of dairy, and we bring them to you with care  <br> and respect for the animals and environment.</p>
+                            <p> Our produce aisle is a daily celebration of the earth’s yield. <br> We handpick the finest vegetables, ensuring that you get the crispest <br>lettuce, 
+                                the juiciest tomatoes, and the most aromatic herbs. <br> From farm to fork,
+                                we maintain the integrity of our vegetables,<br> so you enjoy them at their peak.</p>
                                 <br>
-                            <li>A Variety for Every Taste Explore our diverse range of dairy products:</li><br>
-                            <ul class="dairy_list">
+                            <li>Seasonal Selections</li>
+                            <br>
+                            <p>Embrace the seasons with our ever-changing assortment of seasonal vegetables. Enjoy the tender asparagus of spring, the juicy tomatoes of summer,
+                                the hearty pumpkins of fall, and the robust cabbages of winter.
+                                Seasonal eating not only tastes better but also supports local farming and reduces environmental impact.</p>
+                            </ol>    
 
-                                <li>Milk </li><br>
-                                <li>Cheese </li><br>
-                                <li>Yogurt</li><br>
-                                <li>Butter and Cream </li><br>
-                                <li>more</a></li>
-                                
-                            </ul>
-                        </ol>
+                            <img src="Images/home/vege_des.jpeg" class="vege_des_img">
+                    </section>
                     
-                    <img src="Images/home/dairy_des.png" class="dairy_des_img">
-                </section>
+                </div>
+                
 
-                <section class="cos_des">
+                <div class="dairy_des">
+                    <section class="dairy_content">
+                        <h3 class="dairy_head">Dairies<h3> 
+                            <ol class="dairy_p">
+                                <li>Your Satisfaction, Our Commitment:</li>
+                                <br>
+                                    <p> We are committed to providing you with the finest, highest quality dairy.<br>
+                                If you’re not satisfied with your purchase,
+                                let us know, and we’ll <br>make it right. Because here, your health and happiness are what matter most.<br>
+                                
+                                
+                                <br>
+                                <li>Quality You Can Trust:</li>
+                                <br>
+                                <p>Our commitment to quality means we ensure every dairy product on our shelves meets strict standardsbr <br> for freshness and purity.
+                                    We believe in the wholesome, natural benefits of dairy, and we bring them to you with care  <br> and respect for the animals and environment.</p>
+                                    <br>
+                                <li>A Variety for Every Taste Explore our diverse range of dairy products:</li><br>
+                                <ul class="dairy_list">
+
+                                    <li>Milk </li><br>
+                                    <li>Cheese </li><br>
+                                    <li>Yogurt</li><br>
+                                    <li>Butter and Cream </li><br>
+                                    <li>more</a></li>
+                                    
+                                </ul>
+                            </ol>
+                        
+                        <img src="Images/home/dairy_des.png" class="dairy_des_img">
+                    </section>
+                </div>
+
+                <div class="cos_des">
                     <h3 class="cos_head">Cosmetics<h3>
                         <img src="Images/home/cos_des.jpeg" class="cos_des_img"> 
                         <ol class="cos_p">
@@ -176,7 +195,7 @@
                                 
                                 
                     
-                </section>
+                            </div>
             </div>
         
         <!--end of item description-->
@@ -186,6 +205,48 @@
 
 
 </body>
+<footer>
+    <div class="footer-main-container">
+        <div class="footer-container">
+            <div class="brand-footer">
+                <div class="location">
+                   <p class="footer-description">Grocies supermarket,<br>
+                    No. 571,<br>
+                    High Level road,<br>
+                    Delkanda,<br>
+                    Nugegoda.
+                   </p>
+                </div>
+                <div class="mail">
+                    <a class="mail-text" href="mailto:customer@grocies.lk">customer@grocies.lk</a>
+                </div>
+                <div class="call">
+                   
+                    <p class="footer-description">0740713025</p>
+                </div>
+            </div>
+            <div class="links-footer">
+                    <a  class="footer-list" href="homepage.html">Home</a><br>
+                    <a class="footer-list" href="aboutpage.html">About Us</a><br>
+                    <a class="footer-list" href="product_page.html">Product</a><br>
+                    <a class="footer-list" href="order.html">Order Page</a><br>
+                    <a class="footer-list" href="loyalty.html">Loyalty Registration</a>  
+            </div>
+            <div class="newsletter-footer">
+                <p class="news">News Letter Subscribe</p>
+                <p class="footer-description">Subscribe with Grocies to be in touch with all in-store & online promotions, latest culinary adventures, lifestyle tips and much more.</p>
+                <div>
+                    <input type="email" name="email" placeholder="Ex:name@domain.com" class="email-input">
+                    <button class="subscribe-button">Subscribe</button>
+                </div>
+                
+            </div>
+            
+        </div>
+        <p class="rights-footer">2024 @ All Rights reserved </p>
+    </div>
+</footer>
+
 
 
 </html>

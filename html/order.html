@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grocery website for grocies</title>
+
+ 
+    <link rel="stylesheet" href="../css/order _and_loyalty.css">
+    <link rel="stylesheet" href="../css/header_and_footer.css">
+    
+
+
+
+    <!-- start of section header  -->
+<header class="header">
+
+    <div class="brand">
+    <h1 class="h_heading">Order Page</h1>
+    <img src="../Images/home/basket_icon.jpg" class="logo_icon">
+    </div>
+
+    <nav class="navbar">
+        <a href="../homepage.html">Home</a>
+        <a href="aboutpage.html">About</a>
+        <a href="product_page.html">Products</a>
+        <a href="order.html">Order</a>
+        <a href="loyalty.html">Loyalty</a>
+    </nav>
+
+    <div class="icons">
+        <img src="../Images/home/option_icon.jpg" class="option">
+        <img src="../Images/home/search_icon.JPG" class="search">
+        <img src="../Images/home/shopping_cart_icon.JPG" class="shopping_cart">
+        <img src="../Images/home/user_id_icon.JPG" class="user_id">   
+    </div>
+
+</header> 
+  <!--end of section header -->
+<body>
+
+    <div>
+        
+        <header>
+            <h1>Order Form</h1><br>
+        </header>
+
+
+
+                <div class="order">
+                    <section class="order-intro">
+                        <h1>Orders</h1>
+                        <p>Welcome to Grocies Supermarket's easy-to-use order page! 
+                            Browse our wide range of products with simple categories or use our 
+                            search bar to find what you need in no time. Just click to add items to 
+                            your cart, review your selections, and proceed to checkout for a hassle-free 
+                            experience. With secure payment options and flexible shipping, ordering groceries 
+                            online has never been simpler. Try it now and see for yourself!
+                        </p>
+                    </section>
+                    <section>
+                        <form class="order_form">
+                            <fieldset>
+                                <fieldset>
+                                    <legend>Products Selection</legend>
+                                    Catagory:<select name="categories" required>
+                                        <option>Vagetables</option>
+                                        <option>Diary Products</option>
+                                        <option>Skin care Products</option>
+                                    </select><br><br>
+                                    Products:<textarea name="products" rows="15" cols="50">Enter your product's name and the the amount in grams or pieces</textarea>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Details and Payment method</legend>
+                                    Shopper Name:<input type="text" maxlength="30" required><br><br>
+                                    Address:<textarea rows="5" cols="25" required>Type your address</textarea><br><br>
+                                    Mobile:<input type="text" required maxlength="10"><br><br>
+                                    Email:<input type="email"><br><br>
+                                    Payment Method: Visa<input type="radio"> Credit<input type="radio"> Debit<input type="radio"><br><br>
+                                    Card Number:<input type="text" maxlength="16" required placeholder="xxxx xxxx xxxx xxxx"> 
+                                    Expire Date:<input type="date" required><br><br>
+                                    Security Code:<input type="text" required> 
+                                </fieldset>
+                            </fieldset>
+                                <input type="submit" value="Confirm the order">
+                                <input type="reset" value="Refill">
+                            
+                        </form>
+                    
+            
+            
+            
+            
+            
+            
+            
+                    </section>
+        </div>
+
+           
+
+
+
+
+
+
+
+
+
+
+
+            
+       
+    </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+<footer>
+    <div class="footer-main-container">
+        <div class="footer-container">
+            <div class="brand-footer">
+                <div class="location">
+                   <p class="footer-description">Grocies supermarket,<br>
+                    No. 571,<br>
+                    High Level road,<br>
+                    Delkanda,<br>
+                    Nugegoda.
+                   </p>
+                </div>
+                <div class="mail">
+                    <a class="mail-text" href="mailto:customer@grocies.lk">customer@grocies.lk</a>
+                </div>
+                <div class="call">
+                   
+                    <p class="footer-description">0740713025</p>
+                </div>
+            </div>
+            <div class="links-footer">
+                    <a  class="footer-list" href="homepage.html">Home</a><br>
+                    <a class="footer-list" href="aboutpage.html">About Us</a><br>
+                    <a class="footer-list" href="#product">Product</a><br>
+                    <a class="footer-list" href="order.html">Order Page</a><br>
+                    <a class="footer-list" href="loyalty.html">Loyalty Registration</a>  
+            </div>
+            <div class="newsletter-footer">
+                <p class="news">News Letter Subscribe</p>
+                <p class="footer-description">Subscribe with Grocies to be in touch with all in-store & online promotions, latest culinary adventures, lifestyle tips and much more.</p>
+                <div>
+                    <input type="email" name="email" placeholder="Ex:name@domain.com" class="email-input">
+                    <button class="subscribe-button">Subscribe</button>
+                </div>
+                
+            </div>
+            
+        </div>
+        <p class="rights-footer">2024 @ All Rights reserved </p>
+    </div>
+</footer>
+</html>

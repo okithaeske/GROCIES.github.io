@@ -1,0 +1,390 @@
+
+
+
+/* order page css */
+
+.order{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* loyalty page css */
+
+
+/* loyalty reward description */
+
+
+.vip{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 5px;
+    height: 65em;
+}
+#tier{
+    margin:.5em;
+    margin-top: 3em;
+    font-size: 1.5em;
+    height:100%
+}
+.tier_list{
+    display: flex;
+}
+.top_head{
+    margin-top: .5em;
+    text-align: center;
+    font-size: 5em;
+}
+.top_des{
+    width: 95%;
+    text-align: center;
+    font-size: 3em;
+}
+.bottom_des{
+    text-align: center;
+    font-size: 3em;
+}
+
+#img_head{
+    text-align: center;
+    color: #eee;
+}
+#rewards{
+    color: #ffffff;
+    margin-left: 2em;
+}
+
+/* gold tier css */
+.gold{
+    width: 33%;
+    background-color: rgb(81, 54, 54);
+
+}
+.g_t{
+    width: 50%;
+    margin-top: 1em;
+    margin-left: 7.5em;
+    box-shadow: 1px 1px 3px;
+}
+/* silver tier css */
+.silver{
+    width: 32%;
+    background-color: rgb(203, 182, 182);
+
+}
+.s_t{
+    width: 50%;
+    margin-top: 1em;
+    margin-left: 7em;
+    box-shadow: 1px 1px 3px;
+}
+
+/* platinum tier css */
+.platinum{
+    width: 31%;
+    background-color: rgb(225, 98, 98);
+
+}
+.p_t{
+    width: 50%;
+    margin-top: 1em;
+    margin-left: 7em;
+    box-shadow: 1px 1px 3px;
+}
+
+ /* loyalty registration form */
+
+.loyalty_register{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 2em;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px;
+}
+.loyalty_des{
+    text-align: center;
+    margin: 1em;
+    font-size: 2em;
+}
+.form{
+    border: 1px solid black;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 25%;
+    width: 50%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header css media */
+@media screen and (max-width: 600px){
+
+
+    .navbar{
+        margin-left: 15em;
+    }
+    .icons{
+        margin-left: 28em;
+    }
+
+
+}
+
+
+
+/* loyalty page css meadia */
+
+@media screen and (max-width: 600px){
+    
+   
+
+.vip{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 5px;
+    height: 140em;
+}
+#tier{
+
+    margin-top: 2em;
+    font-size: 1.5em;
+    margin-left: 1em;
+}
+.tier_list{
+    display: flex;
+    flex-direction: column ;
+}
+.top_head{
+    text-align: center;
+    font-size: 3em;
+}
+.top_des{
+    text-align: center;
+    font-size: 2em;
+}
+.bottom_des{
+    text-align: center;
+    font-size: 2em;
+}
+
+#img_head{
+    text-align: center;
+    color: #eee;
+}
+#rewards{
+    color: #ffffff;
+    margin-left: 2em;
+}
+
+/* gold tier css */
+.gold{
+    width: 90%;
+    background-color: rgb(81, 54, 54);
+
+}
+.g_t{
+    width: 50%;
+    margin-top: 1em;
+    margin-left: 5.5em;
+    box-shadow: 1px 1px 3px;
+}
+/* silver tier css */
+.silver{
+    width: 90%;
+    background-color: rgb(203, 182, 182);
+
+}
+.s_t{
+    width: 50%;
+    margin-top: 1em;
+    margin-left: 5.5em;
+    box-shadow: 1px 1px 3px;
+}
+
+/* platinum tier css */
+.platinum{
+    width: 90%;
+    background-color: rgb(225, 98, 98);
+
+}
+.p_t{
+    width: 50%;
+    margin-top: 1em;
+    margin-left: 5.5em;
+    box-shadow: 1px 1px 3px;
+}
+
+ /* loyalty registration form */
+
+
+.form{
+    border: 1px solid black;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 10%;
+    width: 80%;
+    
+    
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
