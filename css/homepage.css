@@ -452,10 +452,6 @@ h2{
 
 
 @media screen and (max-width: 600px) {
-   
-/* header section styling */
-
-
 
 /* start of home section*/
 
@@ -553,7 +549,7 @@ h2{
 /* vegetables description css*/
 .vege_des{
     background-color:rgb(238, 229, 217);
-    height: 800px;
+    height: 750px;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
     
@@ -580,12 +576,12 @@ h2{
     left: 40px;
 }
 .vege_des_img{
-    margin-left: 70%;
+    margin-left: 85%;
     position:relative;
     border-radius: 10px;
-    top: 40px;
-    width: 405px;
-    height: 300px;
+    top: 7em;
+    width: 85%;
+    height: 200px;
     right: 290px;   
 
 }
@@ -621,12 +617,12 @@ h2{
     left: 40px;
 }
 .dairy_des_img{
-    margin-left: 70%;
+    margin-left: 85%;
     position:relative;
     border-radius: 10px;
-    top: 50px;
-    width: 405px;
-    height: 300px;
+    top: 7em;
+    width: 85%;
+    height: 200px;
     right: 290px;  
 }
 /* cosmetics description css*/
@@ -643,6 +639,7 @@ h2{
     
 }
 .cos_p{
+    margin: 1.5em;
     font-size: 12px;
     position: relative;
     bottom:290px ;
@@ -655,12 +652,11 @@ h2{
     left: 40px;
 }
 .cos_des_img{
-    margin-left: 70%;
+    margin-left: 80%;
     position:relative;
     border-radius: 10px;
-    top: 220px;
-    width: 410px;
-    height: 300px;
+    top: 25em;
+    width: 80%;
     right: 290px;  
 }
 }
