@@ -13,6 +13,99 @@
 
 
 
+/* common css for everything in product page */
+
+.p_qaccess{
+
+    margin-top: 2em;
+    display: flex;
+
+}
+
+#qaccess_p{
+    margin-left: auto;
+    margin-right: auto;
+}
+#qaccess_p_img{
+    border-radius: 100%;
+    width: 80%;
+    box-shadow: 2px 2px 10px;
+}
+#qaccess_p_p{
+    font-size: 3em;
+    margin-left: 2em;
+}
+#qaccess_p_o{
+    font-size: 3em;
+    margin-left: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -86,11 +179,13 @@
 
 
 @media screen and (max-width: 600px){
-
-
     .navbar{
         margin-left: 15em;
     }
     .icons{
+        margin-left: 28em;
     }
+
+
+        
 }    

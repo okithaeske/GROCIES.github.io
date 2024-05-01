@@ -2,7 +2,11 @@
 
 /* start of home section*/
 
+.h_content{
+    width: 95%;
+    margin: auto;
 
+}
 .m_banner{
     height: 400px;;
     width: 100%;
