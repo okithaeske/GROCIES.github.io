@@ -1,3 +1,4 @@
+/* product page */
 .image-button {
     color: white;
     border: none;
@@ -8,17 +9,11 @@
 
 
 
-
-
-
-
-
 /* common css for everything in product page */
-
 .p_qaccess{
-
-    margin-top: 2em;
     display: flex;
+    background-color:antiquewhite ;
+
 
 }
 
@@ -27,18 +22,220 @@
     margin-right: auto;
 }
 #qaccess_p_img{
+    margin-top: 2em;
     border-radius: 100%;
     width: 80%;
+    box-shadow: 2px 2px 1px;
+}
+#qaccess_p_img:hover{
     box-shadow: 2px 2px 10px;
 }
+
 #qaccess_p_p{
     font-size: 3em;
     margin-left: 2em;
+    margin-bottom: 1em;
 }
 #qaccess_p_o{
     font-size: 3em;
     margin-left: 1em;
 }
+#ind_container_btn{
+    margin-top: 1.5em;
+    margin-bottom: .1em;
+    margin-left: auto;
+    margin-right:auto ;
+    display: block;
+    background-color: blueviolet;
+    width: 100%;
+    font-size: 2em;
+}
+#ind_container_btn:hover{
+    color: aquamarine;
+}
+.strt_head{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 5em;
+}
+@media screen and (max-width: 600px){
+    .p_qaccess{
+        display: flex;
+        background-color:antiquewhite ;
+    
+    
+    }
+    
+    #qaccess_p{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #qaccess_p_img{
+        margin-left: 1em;
+        margin-top: 2em;
+        border-radius: 100%;
+        width: 70%;
+        box-shadow: 2px 2px 1px;
+    }
+    #qaccess_p_img:hover{
+        box-shadow: 2px 2px 10px;
+    }
+    
+    #qaccess_p_p{
+        font-size: 2em;
+        margin-left: 2em;
+        margin-bottom: 1em;
+    }
+    #qaccess_p_o{
+        font-size: 2em;
+        margin-left: 1em;
+    }
+    
+
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* vegetable page */
+
+#p_container{
+    margin-top: 5em;
+
+}
+.vege_box{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(5,210px);
+    row-gap: 20px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vege_box:hover{
+    box-shadow: 2px 2px 3px;
+    
+}
+#ind_container{
+    border-radius: 3px;
+    margin: 1em;
+    border: 1px solid black;
+}
+#ind_container:hover{
+    box-shadow: 1px 1px 1px;
+}
+#ind_container_img{
+    margin: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 100px;
+    border:1px solid black;
+}
+#ind_container_p{
+    margin-top: .5em;
+    text-align: center;
+    font-size: 1.5em;
+}
+#ind_container_p1{
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 2em;
+}
+#ind_container_pr{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 0.2em;
+}
+
+
+@media screen and (max-width: 600px){
+    .strt_head{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        text-align: center;
+        font-size: 5em;
+    }
+    #p_container{
+        margin-top: 5em;
+    
+    }
+    .p_box{
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: repeat(2,200px);
+        row-gap: 20px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .p_box:hover{
+        box-shadow: 2px 2px 3px;
+        
+    }
+    #ind_container{
+        border-radius: 3px;
+        margin: 1em;
+        border: 1px solid black;
+    }
+    #ind_container:hover{
+        box-shadow: 1px 1px 1px;
+    }
+    #ind_container_img{
+        margin: 1em;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        border-radius: 100px;
+        border:1px solid black;
+    }
+    #ind_container_p{
+        margin-top: .5em;
+        text-align: center;
+        font-size: 2em;
+    }
+    #ind_container_p1{
+        text-align: center;
+        font-size: 1.4em;
+        margin-top: 2em;
+    }
+    #ind_container_pr{
+        text-align: center;
+        font-size: 2em;
+        margin-top: 0.2em;
+    }
+    
+    
+    
+
+        
+} 
+
+
+
+
+
+
+
+
+
+
+/* dairy page css */
+
 
 
 
