@@ -237,6 +237,65 @@
 /* dairy page css */
 
 
+.dairy_box{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.dairy_box:hover{
+    box-shadow: 1px 1px 3px;
+}
+#ind_dairy{
+    margin-top: 1em;
+    border: 1px solid black;
+    width: 16%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+
+}
+.dairy_img{
+    border: 1px solid black;
+    margin: 1em;
+    width: 75%;
+    border-radius: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.dairy_p{
+    margin: 1em;
+    text-align: center;
+    font-size: 2em;
+}
+.quantity{
+    font-size: 1.2em;
+    text-align: center;
+}
+.dairy_pr{
+    text-align: center;
+    font-size: 2em;
+}
+.ind_container_btn_d1{
+    margin-top: 2.7em;
+    margin-bottom: .1em;
+    margin-left: auto;
+    margin-right:auto ;
+    display: block;
+    background-color: blueviolet;
+    width: 100%;
+    font-size: 2em;
+}
+.ind_container_btn_d1:hover{
+    color: aliceblue;
+}
+
+
+
 
 
 
