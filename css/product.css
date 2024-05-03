@@ -164,17 +164,11 @@
 
 
 @media screen and (max-width: 600px){
-    .strt_head{
-        margin-top: 1em;
-        margin-bottom: 1em;
-        text-align: center;
-        font-size: 5em;
-    }
     #p_container{
         margin-top: 5em;
     
     }
-    .p_box{
+    .vege_box{
         display: grid;
         justify-content: space-evenly;
         grid-template-columns: repeat(2,200px);
@@ -183,7 +177,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .p_box:hover{
+    .vege_box:hover{
         box-shadow: 2px 2px 3px;
         
     }
@@ -206,16 +200,16 @@
     #ind_container_p{
         margin-top: .5em;
         text-align: center;
-        font-size: 2em;
+        font-size: 1.5em;
     }
     #ind_container_p1{
         text-align: center;
-        font-size: 1.4em;
+        font-size: 1.1em;
         margin-top: 2em;
     }
     #ind_container_pr{
         text-align: center;
-        font-size: 2em;
+        font-size: 1.5em;
         margin-top: 0.2em;
     }
     
@@ -258,6 +252,11 @@
     border-radius: 3px;
 
 }
+#ind_dairy:hover{
+    box-shadow: 1px 1px 3px;
+   
+
+}
 .dairy_img{
     border: 1px solid black;
     margin: 1em;
@@ -293,10 +292,194 @@
 .ind_container_btn_d1:hover{
     color: aliceblue;
 }
+@media screen and (max-width: 600px){
+    
+    
+
+.dairy_box{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.dairy_box:hover{
+    box-shadow: 1px 1px 3px;
+}
+#ind_dairy{
+    margin-top: 1em;
+    border: 1px solid black;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+
+}
+#ind_dairy:hover{
+    box-shadow: 1px 1px 3px;
+   
+
+}
+.dairy_img{
+    border: 1px solid black;
+    margin: 1em;
+    width: 75%;
+    border-radius: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.dairy_p{
+    margin: 1em;
+    text-align: center;
+    font-size: 2em;
+}
+.quantity{
+    font-size: 1.2em;
+    text-align: center;
+}
+.dairy_pr{
+    text-align: center;
+    font-size: 2em;
+}
+.ind_container_btn_d1{
+    margin-top: 2.7em;
+    margin-bottom: .1em;
+    margin-left: auto;
+    margin-right:auto ;
+    display: block;
+    background-color: blueviolet;
+    width: 100%;
+    font-size: 2em;
+}
+.ind_container_btn_d1:hover{
+    color: aliceblue;
+}
+    
+    
+
+        
+} 
+
+
+/* cosmetics page css */
+.cos_box{
+    margin: 1em;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 3px;
+}
+#ind_container_cos{
+    margin: 1em;
+    width: 70%;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#ind_container_cos:hover{
+    box-shadow: 1px 1px 1px;
+}
+#ind_container_cos_img{
+    margin: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 100px;
+    border:1px solid black;
+}
+#ind_container_cos_p{
+    margin-top: .5em;
+    text-align: center;
+    font-size: 1.5em;
+}
+#ind_container_cos_quantity{
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 2em;
+}
+#ind_container_cos_pr{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 0.2em;
+}
+.cos_tb{
+    margin-left: auto;
+    margin-right: auto;
+}
+.td{
+    width: 7%;
+}
+/* ..................................................................................................................................... */
+/* mobile veiw table */
 
 
 
 
+
+@media screen and (max-width: 600px){
+    .cos_container{
+        display: none;
+    }
+    .cos_box{
+        margin: 1em;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 1px 1px 3px;
+    }
+    #ind_container_cos{
+        margin: 1em;
+        width: 80%;
+        border-radius: 3px;
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    #ind_container_cos:hover{
+        box-shadow: 1px 1px 1px;
+    }
+    #ind_container_cos_img{
+        margin: 1em;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        border-radius: 100px;
+        border:1px solid black;
+    }
+    #ind_container_cos_p{
+        margin-top: .5em;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    #ind_container_cos_quantity{
+        text-align: center;
+        font-size: 1.1em;
+        margin-top: 2em;
+    }
+    #ind_container_cos_pr{
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: 0.2em;
+    }
+    .cos_tb{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+}
+
+@media screen and (min-width: 600px){
+    .cos_container2{
+        display: none;
+    }
+}
 
 
 
