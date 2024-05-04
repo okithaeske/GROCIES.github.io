@@ -178,7 +178,7 @@
     .vege_box{
         display: grid;
         justify-content: space-evenly;
-        grid-template-columns: repeat(2,200px);
+        grid-template-columns: repeat(2,170px);
         row-gap: 10px;
         width: 95%;
     }
