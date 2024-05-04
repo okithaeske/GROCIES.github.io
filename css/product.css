@@ -64,6 +64,7 @@
     .p_qaccess{
         display: flex;
         background-color:antiquewhite ;
+        width: 100%;
     
     
     }
@@ -114,8 +115,9 @@
 
 /* vegetable page */
 
-#p_container{
+#vege_container{
     margin-top: 5em;
+
 
 }
 .vege_box{
@@ -124,8 +126,9 @@
     grid-template-columns: repeat(5,240px);
     row-gap: 20px;
     width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+
+
 }
 .vege_box:hover{
     box-shadow: 2px 2px 3px;
@@ -176,10 +179,8 @@
         display: grid;
         justify-content: space-evenly;
         grid-template-columns: repeat(2,200px);
-        row-gap: 20px;
+        row-gap: 10px;
         width: 95%;
-        margin-left: auto;
-        margin-right: auto;
     }
     .vege_box:hover{
         box-shadow: 2px 2px 3px;
@@ -187,7 +188,6 @@
     }
     #ind_container{
         border-radius: 3px;
-        margin: 1em;
         border: 1px solid black;
     }
     #ind_container:hover{
