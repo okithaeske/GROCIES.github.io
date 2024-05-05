@@ -1,21 +1,72 @@
 
 /* product page */
-.image-button {
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+
+.d_qaccess{
+    display: flex;
+    /* background-color:antiquewhite ; */
+    width: 100%;
+}
+
+#daccess_p{
+    margin-left: auto;
+    margin-right: auto;
+}
+#daccess_p_img{
+    margin-top: 2em;
+    border-radius: 3px;
+    width: 100%;
+    box-shadow: 2px 2px 1px;
+}
+#daccess_p_img:hover{
+    box-shadow: 2px 2px 10px;
+}
+
+#daccess_p_p{
+    font-size: 3em;
+    margin-left: 1.8em;
+    margin-bottom: 1em;
+}
+#daccess_p_o{
+    font-size: 3em;
+    margin-left: 1em;
+}
+@media screen and (max-width: 600px){
+    .d_qaccess{
+        
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #daccess_p_img{
+
+        margin-top: 2em;
+        border-radius: 3px;
+        width: 100%;
+        box-shadow: 2px 2px 1px;
+    }
+    #daccess_p_p{
+        font-size: 3em;
+        margin-left: 2.5em;
+        margin-bottom: 1em;
+    }
+    #daccess_p_o{
+        font-size: 3em;
+        margin-left: 1.5em;
+    }
+
 }
 
 
 
+
+/* ........................................................................................................................................................................ */
 /* common css for everything in product page */
+
+
+
 .p_qaccess{
     display: flex;
     background-color:antiquewhite ;
-
-
 }
 
 #qaccess_p{
@@ -97,17 +148,6 @@
 
         
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ........................................................................................................................................................................................................ */
@@ -228,7 +268,7 @@
 
 
 
-/* ........................................................................................................................................................................................................ */
+/* ....................................................................................................................................................................... */
 
 
 
@@ -400,9 +440,7 @@
         color: aliceblue;
     }
     
-
-    
-    
+   
         
 } 
 
@@ -414,8 +452,13 @@
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 1px 1px 3px;
+   
 }
+.cos_box:hover{
+    box-shadow: 1px 1px 3px;
+
+}
+
 #ind_container_cos{
     margin: 1em;
     width: 70%;
@@ -472,8 +515,13 @@
         width: 95%;
         margin-left: auto;
         margin-right: auto;
-        box-shadow: 1px 1px 3px;
+        
     }
+    .cos_box:hover{
+        box-shadow: 1px 1px 3px;
+    
+    }
+
     #ind_container_cos{
         margin: 1em;
         width: 90%;
