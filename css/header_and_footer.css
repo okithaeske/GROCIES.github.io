@@ -279,9 +279,20 @@ body{
 
 
 
+@media screen and (max-width: 600px){
+
+
+    .navbar{
+        margin-left: 1em;
+    }
+    .icons{
+        margin-left: 24em;
+    }
+}
 
 @media screen and (max-width: 600px) {
    
+    
     /* header section styling */
     
     *{
@@ -340,7 +351,6 @@ body{
     .navbar {
     
         justify-content:center;
-        margin-right:  300px;
         margin-top: -80px;
         
     }
@@ -361,7 +371,6 @@ body{
         bottom:60px;
         margin-bottom: 40px;
         margin-top: -80px;
-        margin-right: 6em;
     
         
     }

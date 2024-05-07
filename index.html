@@ -6,8 +6,8 @@
     <title>Grocery website for grocies</title>
 
  
-    <link rel="stylesheet" href="css/homepage.css">
     <link rel="stylesheet" href="css/header_and_footer.css">
+    <link rel="stylesheet" href="css/homepage.css">
     
 
 
@@ -17,11 +17,11 @@
 
     <div class="brand">
     <h1 class="h_heading">Grocies</h1>
-    <img src="Images/home/basket_icon.jpg" class="logo_icon">
+    <img src="../Images/home/basket_icon.jpg" class="logo_icon">
     </div>
 
     <nav class="navbar">
-        <a href="index.html">Home</a>
+        <a href="../index.html">Home</a>
         <a href="html/aboutpage.html">About</a>
         <a href="html/product_page.html">Products</a>
         <a href="html/order.html">Order</a>
@@ -29,10 +29,10 @@
     </nav>
 
     <div class="icons">
-        <img src="Images/home/option_icon.jpg" class="option">
-        <img src="Images/home/search_icon.JPG" class="search">
-        <img src="Images/home/shopping_cart_icon.JPG" class="shopping_cart">
-        <img src="Images/home/user_id_icon.JPG" class="user_id">   
+        <img src="../Images/home/option_icon.jpg" class="option">
+        <img src="../Images/home/search_icon.JPG" class="search">
+        <img src="../Images/home/shopping_cart_icon.JPG" class="shopping_cart">
+        <img src="../Images/home/user_id_icon.JPG" class="user_id">   
     </div>
 
 </header> 
@@ -44,7 +44,7 @@
     
     <main class="h_content">
     
-        <!--start of home section -->
+        <!-- start of home section -->
         <section class="home" id="home">
             <div style="position: relative; text-align: center;">
                 <img src="Images/home/main_banner.jpg" alt="main_banner " class="m_banner">
@@ -60,14 +60,14 @@
         </section>
         <!--end of home section -->
 
-        <!--start of features: selction-->
+        <!-- start of features: selction -->
         <div class="container">
             <div class="boxcontainer">
                 <section class="q_accessg">
             
                     <div style="position: relative;">
                         
-                        <a href="html/vegetablepage.html"><img src="Images/home/vegetables_q.access.jpeg" alt="quick acces vegetables" class="q_access1 "></a>
+                        <a href="html/vegetablepage.html"><img src="Images/home/vegetables_q.access.jpeg" alt="quick acces vegetables" class="q_access1 " id="q_access_img" ></a>
                         <p class="q_accessh1">Vegetables</p>
                         
                     </div>
@@ -77,15 +77,15 @@
                 <section class="q_accessg">
                     <div style="position: relative;">
 
-                        <a href="html/cosmeticspage.html"><img src="Images/home/cosmetics_q.access.jpeg" alt="quick acces dairy" class="q_access2 "></a>
+                        <a href="html/cosmeticspage.html"><img src="Images/home/cosmetics_q.access.jpeg" alt="quick acces dairy" class="q_access2 " id="q_access_img"></a>
                         <p class="q_accessh2">Cosmetics</p>
 
                     </div>
                 </section>
-                <section class="q_accessg">
+                <section class="q_accessg" id="">
                     <div style="position: relative;">
 
-                        <a href="html/dairypage.html"><img src="Images/home/dairy_q.access.jpeg" alt="quick acces dairy" class="q_access3 "></a>
+                        <a href="html/dairypage.html"><img src="Images/home/dairy_q.access.jpeg" alt="quick acces dairy" class="q_access3 " id="q_access_img"></a>
                         <p class="q_accessh3">Dairy</p>
 
                     </div>
@@ -103,7 +103,7 @@
 
         <!--end of features:selection-->
 
-        <!--start of item description-->
+        <!-- start of item description -->
 
             <div class="product_des">
                 <div class="vege_des"> 
@@ -135,13 +135,12 @@
                             <p>Embrace the seasons with our ever-changing assortment of seasonal vegetables. Enjoy the tender asparagus of spring, the juicy tomatoes of summer,
                                 the hearty pumpkins of fall, and the robust cabbages of winter.
                                 Seasonal eating not only tastes better but also supports local farming and reduces environmental impact.</p>
-                            </ol>    
-
-                            <img src="Images/home/vege_des.jpeg" class="vege_des_img">
+                            </ol>           
                     </section>
+                    <section class="vege_img"> <img src="Images/home/vege_des.jpeg" class="vege_des_img" id="des_img" ></section>
                     
                 </div>
-                
+               
 
                 <div class="dairy_des">
                     <section class="dairy_content">
@@ -172,13 +171,14 @@
                                 </ul>
                             </ol>
                         
-                        <img src="Images/home/dairy_des.png" class="dairy_des_img">
                     </section>
+                    <section class="dairy"><img src="Images/home/dairy_des.png" class="dairy_des_img" id="des_img" ></section>
                 </div>
 
                 <div class="cos_des">
-                    <h3 class="cos_head">Cosmetics<h3>
-                        <img src="Images/home/cos_des.jpeg" class="cos_des_img"> 
+                    <section class="cos_content">
+                        <h3 class="cos_head">Cosmetics<h3>
+                       
                         <ol class="cos_p">
                             <li>Quality and Safety First:</li>
                             <br>
@@ -190,15 +190,18 @@
                             <br>
                             <p> Our shelves are stocked with everything from foundational items like moisturizers and primers to color cosmetics <br>such as
                                 lipsticks and eyeshadows. 
-                                Whether you’re prepping for a day at the office or a night on the town, <br>we have the products to suit every occasion.</p>
+                              Whether you’re prepping for a day at the office or a night on the town, <br>we have the products to suit every occasion.</p>
+                        </ol>
 
-                                
-                                
+                    </section>
+                    <section class="cos_img">
+                        <img src="Images/home/cos_des.jpeg" class="cos_des_img" id="des_img"> 
+                    </section>
+                </div>
                     
-                            </div>
             </div>
         
-        <!--end of item description-->
+        <!--end of item description -->
 
 
     </main>

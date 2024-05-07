@@ -2,11 +2,8 @@
 
 /* start of home section*/
 
-.h_content{
-    width: 95%;
-    margin: auto;
 
-}
+
 .m_banner{
     height: 400px;;
     width: 100%;
@@ -102,45 +99,46 @@ h2{
 
 /* vegetables description css*/
 .vege_des{
-    background-color:rgb(238, 229, 217);
-    height:520px;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    
+    display: flex;
 }
+.vege_des{
+    background-color:rgb(238, 229, 217);
+    height:600px;
+    border-bottom: 1px solid black;
+}
+.vege_des_img{
+    margin-right: 2em;
+    margin-top: 15em;
+    border-radius: 5px;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+        
+}
+
 .vege_des:hover{
-    background-color: #c6acac;   
+    background-color: #c6acac;
+    
 }
 .vege_content{
     width: 95%;
+    margin-left: 1em;
 }
 .vege_head{
     font-size:40px;
-    margin-left: 5px;
-
     
 }
 .vege_p{
     font-size: 15px;
     position: relative;
     top: 25px;
-    left: 20px;
+    left: 15px;
 }
 .vege_list{
     font-size: 15px;
     position: relative;
     top:5px ;
     left: 40px;
-}
-.vege_des_img{
-    margin-left: 70%;
-    position:relative;
-    border-radius: 10px;
-    bottom: 400px;
-    width: 500px;
-    height: 300px;
-    right: 100px;   
-
 }
 
 /* Daries description css*/
@@ -149,6 +147,233 @@ h2{
     background-color:rgb(238, 229, 217);
     height:500px;
     border-bottom: 1px solid black;
+}
+.dairy_des{
+    display: flex;
+
+}
+
+.dairy_des:hover{
+    background-color: #c6acac;
+    
+}
+.dairy_content{
+    width: 95%;
+    margin-left: 1em;
+}
+.dairy_head{
+    font-size:40px;
+    
+}
+.dairy_p{
+    font-size: 15px;
+    position: relative;
+    top: 25px;
+    left: 15px;
+}
+.dairy_list{
+    font-size: 15px;
+    position: relative;
+    top:5px ;
+    left: 40px;
+}
+.dairy_des_img{
+    margin-right: 2em;
+    margin-top: 10em;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    
+}
+/* cosmetics description css*/
+.cos_des{
+    background-color:rgb(238, 229, 217);
+    height:500px;
+}
+.cos_des{
+    display: flex;
+}
+.cos_des:hover{
+    background-color: #c6acac; 
+}
+
+.cos_content{
+    width: 95%;
+    margin-left: 1em;
+}
+.cos_head{
+    font-size: 40px;
+}
+.cos_p{
+    font-size: 15px;
+    position: relative;
+    top: 25px;
+    left: 15px;
+}
+.cos_des_img{
+    margin-right: 2em;
+    margin-top: 10em;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    
+}
+  
+
+
+
+
+
+/* ....................................................................................................................................................................... */
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    
+
+/* start of home section*/
+
+
+.m_banner{
+    height: 200px;;
+    width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+    border-bottom: 1px solid black;
+    opacity: .8;
+}
+h2{
+    font-size: 20px;
+    
+}
+.m_text{
+    font-size: 10px;
+}
+.home_content{
+    width: 55%;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%)
+}
+.m_btn{
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #c6acac;
+  
+}
+.m_btn:hover{
+    color: antiquewhite;
+}
+
+/* quick access: selection*/
+
+#q_access_img{
+    width: 85%;
+    height: 50%;
+}
+.q_access2{
+    margin-left: 3em;
+}
+.q_accessh2{
+    margin-left: .5em;
+}
+.q_accessh1{
+    position: absolute;
+    bottom: 20px; 
+    left: 40px; 
+    color: aliceblue;
+    font-size: 20px;
+}  
+ 
+.q_accessh2{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: black;
+    font-size: 20px;
+} 
+.q_accessh3{
+    position:absolute;
+    top: 20px;
+    left: 40px;
+    color: aliceblue;
+    font-size: 20px;
+} 
+.q_accessp{
+    display: none;
+} 
+.boxcontainer{ 
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+     
+ }
+
+
+/* item description*/
+
+
+/* vegetables description css*/
+
+.vege_des{
+    display: flex;
+    flex-direction: column;
+}
+.vege_des{
+    background-color:rgb(238, 229, 217);
+    height:950px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.vege_des_img{
+    margin-left: 1.5em;
+    margin-top: 6em;
+    width: 30%;
+    width:90%;
+    height: 200px;
+    border-radius: 5px;
+
+}
+
+.vege_des:hover{
+    background-color: #c6acac;
+    
+}
+.vege_content{
+    width: 95%;
+}
+.vege_head{
+    font-size:40px;
+    
+}
+.vege_p{
+    font-size: 15px;
+    position: relative;
+    top: 25px;
+    left: 15px;
+}
+.vege_list{
+    font-size: 15px;
+    position: relative;
+    top:5px ;
+    left: 40px;
+}
+
+/* Daries description css*/
+
+.dairy_des{
+    background-color:rgb(238, 229, 217);
+    height:850px;
+    border-bottom: 1px solid black;
+}
+.dairy_des{
+    display: flex;
+    flex-direction: column;
+
 }
 
 .dairy_des:hover{
@@ -175,496 +400,74 @@ h2{
     left: 40px;
 }
 .dairy_des_img{
-    margin-left: 70%;
-    position:relative;
+    margin-right: 2em;
+    margin-top: 7em;
     border-radius: 10px;
-    bottom: 400px;
-    width: 500px;
-    height: 300px;
-    right: 100px;  
+    width: 90%;
+    height: 200px;
+    margin-left: 1.5em;
+    
 }
+
+
+
+
+
 /* cosmetics description css*/
 .cos_des{
     background-color:rgb(238, 229, 217);
-    height:500px;
+    height:640px;
+}
+.cos_des{
+    display: flex;
+    flex-direction: column;
 }
 .cos_des:hover{
     background-color: #c6acac; 
-    
+}
+
+.cos_content{
+    width: 90%;
+    margin-left: 1em;
 }
 .cos_head{
-    font-size:40px;
-    
+    font-size: 40px;
 }
 .cos_p{
     font-size: 15px;
-    position: relative;
-    bottom:290px ;
-    left: 15px;
-}
-.cos_list{
-    font-size: 15px;
-    position: relative;
-    top:5px ;
-    left: 40px;
-}
-.cos_des_img{
-    margin-left: 70%;
-    position:relative;
-    border-radius: 10px;
-    bottom: 10px;
-    width: 500px;
-    height: 300px;
-    right: 100px;  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 600px) {
-
-/* start of home section*/
-
-.m_banner{
-    height: 200px;;
-    width: 100%;
-    margin-left: auto;
-    margin-right:auto;
-    display: block;
-    border-bottom: 1px solid black;
-}
-h2{
-    font-size: 15px;
-    
-}
-.m_text{
-    font-size: 10px;
-
-}
-.home_content{
-    position: absolute;
-    top: 50%;
-    left: 60%;
-    transform: translate(-50%, -50%)
-}
-.m_btn{
-    border-radius: 5px;
-    font-size: 10px;
-    background-color: #c6acac;
-  
-}
-.m_btn:hover{
-    color: antiquewhite;
-}
-
-/* quick access: selection*/
-
-.q_access1{
-    margin: 5px;
-    width:200px;
-    height: 130px;;
-    border-radius: 10px;
-}  
-.q_accessh1{
-    position: absolute;
-    bottom: 20px; 
-    left: 30px; 
-    color: aliceblue;
-    font-size: 20px;
-}   
-.q_access2{
-    margin: 5px;
-    margin-left: 60px;
-    width:160px;
-    height: 260px;
-    border-radius: 10px;
-}
-.q_accessh2{
-    position: absolute;
-    top: 10px;
-    left: 80px;
-    color: black;
-    font-size: 15px;
-}  
-.q_access3{
-    margin: 5px;
-    width:200px;
-    height:120px;
-    border-radius: 10px;
-} 
-.q_accessh3{
-    position:absolute;
-    top: 20px;
-    left: 30px;
-    color: aliceblue;
-    font-size: 20px;
-}
-.q_accessp{
-    display: none;
-} 
-.boxcontainer{ 
-    display: grid;
-    text-align: justify;
-    grid-template-columns: repeat(2,160px);
-    grid-template-rows: repeat(2,140px)  
-     
- }
-.boxcontainer:hover{
-    background-color: #9ab06d;
-}
-
-/* item description*/
-
-
-/* vegetables description css*/
-.vege_des{
-    background-color:rgb(238, 229, 217);
-    height: 750px;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    
-}
-.vege_des:hover{
-    background-color: #c6acac;   
-}
-.vege_head{
-    font-size:30px;
-    margin-left: 5px;
-
-    
-}
-.vege_p{
-    font-size: 12px;
-    position: relative;
-    top: 20px;
-    left: 15px;
-}
-.vege_list{
-    font-size: 12px;
-    position: relative;
-    top:5px ;
-    left: 40px;
-}
-.vege_des_img{
-    margin-left: 85%;
-    position:relative;
-    border-radius: 10px;
-    top: 7em;
-    width: 85%;
-    height: 200px;
-    right: 290px;   
-
-}
-
-/* Daries description css*/
-
-.dairy_des{
-    background-color:rgb(238, 229, 217);
-    height:770px;
-    border-bottom: 1px solid black;
-}
-
-.dairy_des:hover{
-    background-color: #c6acac;
-    
-}
-.dairy_head{
-    font-size:40px;
-    margin-left: 5px;
-    
-}
-.dairy_p{
-    font-size: 12px;
     position: relative;
     top: 25px;
     left: 15px;
-    text-align: justify;
-}
-.dairy_list{
-    font-size: 12px;
-    position: relative;
-    top:5px ;
-    left: 40px;
-}
-.dairy_des_img{
-    margin-left: 85%;
-    position:relative;
-    border-radius: 10px;
-    top: 7em;
-    width: 85%;
-    height: 200px;
-    right: 290px;  
-}
-/* cosmetics description css*/
-.cos_des{
-    background-color:rgb(238, 229, 217);
-    height:840px;
-}
-.cos_des:hover{
-    background-color: #c6acac;
-    
-}
-.cos_head{
-    font-size:30px;
-    
-}
-.cos_p{
-    margin: 1.5em;
-    font-size: 12px;
-    position: relative;
-    bottom:290px ;
-    left: 15px;
-}
-.cos_list{
-    font-size: 12px;
-    position: relative;
-    top:5px ;
-    left: 40px;
 }
 .cos_des_img{
-    margin-left: 80%;
-    position:relative;
+    margin-left: 2em;
+    margin-top: 5em;
     border-radius: 10px;
-    top: 25em;
-    width: 80%;
-    right: 290px;  
-}
+    width: 90%;
+    height: 200px;
+    
 }
 
+.product_des{
+    width: 100%;
+}
+
+
+
+
+
+}
+
+@media screen and (max-width: 600px){
+
+
+    .navbar{
+        margin-right: 4em;
+    }
+    .icons{
+        margin-right: 3em;
+    }
+}
 
 
 
