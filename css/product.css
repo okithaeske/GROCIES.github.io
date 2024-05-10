@@ -98,7 +98,8 @@
     margin-left: auto;
     margin-right:auto ;
     display: block;
-    background-color: blueviolet;
+    background-color: rgb(144, 174, 78);
+    border: none;
     width: 100%;
     font-size: 2em;
 }
@@ -187,6 +188,7 @@
     margin-right: auto;
     margin-left: auto;
     display: block;
+    width: 90%;
     border-radius: 100px;
     border:1px solid black;
 }
@@ -305,7 +307,7 @@
 .dairy_img{
     border: 1px solid black;
     margin: 1em;
-    width: 75%;
+    width: 90%;
     border-radius: 100px;
     margin-right: auto;
     margin-left: auto;
@@ -325,12 +327,13 @@
     font-size: 2em;
 }
 .ind_container_btn_d1{
+    border: none;
     margin-top: 2.7em;
     margin-bottom: .1em;
     margin-left: auto;
     margin-right:auto ;
     display: block;
-    background-color: blueviolet;
+    background-color: rgb(144, 174, 78);
     width: 100%;
     font-size: 2em;
 }
@@ -432,7 +435,7 @@
         margin-left: auto;
         margin-right:auto ;
         display: block;
-        background-color: blueviolet;
+        background-color: rgb(144, 174, 78) ;
         width: 100%;
         font-size: 2em;
     }
@@ -476,6 +479,7 @@
     margin-right: auto;
     margin-left: auto;
     display: block;
+    width: 90%;
     border-radius: 100px;
     border:1px solid black;
 }
