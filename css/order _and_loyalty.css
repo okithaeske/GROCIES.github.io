@@ -1,21 +1,9 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* order page css */
-
+.form_head{
+    margin-top: 1em;
+    font-size: 4em;
+}
 .order{
     margin-left: auto;
     margin-right: auto;
@@ -23,8 +11,74 @@
     
 
 }
+.order_set{
+    display: flex;
+}
+#set{
+    margin: 1em;
+    width: 50%;
+    border: none;
+    box-shadow: 1px 1px 3px;
+}
+.feild_2{
+    margin-left: 2em;
+    font-size: 2em;
+   
+}
+.feild_2_head{
+    font-size: 1.5em;
+}
+#order_panel{
+    margin: 1em;
+    width: 85%;
+    height: 2.5em;
+    border-radius: 3px;
+    border: none;
 
+}
+#order_panel_tog{
+    width: 40%;
+    margin: 1em;
+    height: 2.5em;
+    border: none;
+    border-radius: 3px;
+}
+@media screen and (max-width: 600px){
+    #set{
+        margin: 1em;
+        width: 95%;
+        border: none;
+        box-shadow: 1px 1px 3px;
+    }
+    .order_set{
+        display: flex;
+        flex-direction: column;
+    }
+    .feild_2{
+        margin-left: 1em;
+        font-size: 2em;
+       
+    }
+    .feild_2_head{
+        font-size: 1.5em;
+    }
+    #order_panel{
+        margin: 1em;
+        width: 90%;
+        height: 3em;
+        border-radius: 3px;
+        border: none;
+    
+    }
+    #order_panel_tog{
+        width: 40%;
+        margin: 1em;
+        height: 3em;
+        border: none;
+        border-radius: 3px;
+    }
 
+}
 
 
 

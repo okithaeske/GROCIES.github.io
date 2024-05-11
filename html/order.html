@@ -39,63 +39,70 @@
   <!--end of section header -->
 <body>
 
-    <div>
-        
-        <header>
-            <h1>Order Form</h1><br>
-        </header>
+
+            
 
 
 
-                <div class="order">
-                    <section class="order-intro">
-                        <h1>Orders</h1>
-                        <p>Welcome to Grocies Supermarket's easy-to-use order page! 
-                            Browse our wide range of products with simple categories or use our 
-                            search bar to find what you need in no time. Just click to add items to 
-                            your cart, review your selections, and proceed to checkout for a hassle-free 
-                            experience. With secure payment options and flexible shipping, ordering groceries 
-                            online has never been simpler. Try it now and see for yourself!
-                        </p>
-                    </section>
-                    <section>
-                        <form class="order_form">
-                            <fieldset>
-                                <fieldset>
-                                    <legend>Products Selection</legend>
-                                    Catagory:<select name="categories" required>
-                                        <option>Vagetables</option>
-                                        <option>Diary Products</option>
-                                        <option>Skin care Products</option>
-                                    </select><br><br>
-                                    Products:<textarea name="products" rows="15" cols="50">Enter your product's name and the the amount in grams or pieces</textarea>
+
+ <div class="order">
+
+                    <h1 class="form_head">Order Now</h1><br>
+                        <section>
+                            <form>
+                                <fieldset class="order_set">
+                                    <fieldset id="set">
+                                        <legend>Products Selection</legend>
+                                        Catagory:<select name="categories" required>
+                                            <option>Vagetables</option>
+                                            <option>Diary Products</option>
+                                            <option>Skin care Products</option>
+                                        </select><br><br>
+                                        Products:<textarea name="products" rows="15" cols="50"></textarea>
+                                    </fieldset>
+                                    <fieldset id="set">
+                                        <section class="feild_2">
+                                            <legend class="feild_2_head">Payment Detail Methods</legend> <br>
+                                            Name: <br> 
+                                            <input type="text" maxlength="30" required id="order_panel" placeholder=" First name">
+                                            <input type="text" maxlength="30" required id="order_panel" placeholder=" Last name">
+                                            <br><br>
+                                            Address: <br>
+                                            <input type="text" maxlength="30" required id="order_panel_tog" placeholder=" Street number">
+                                            <input type="text" maxlength="30" required id="order_panel_tog" placeholder=" Street name"> <br>
+                                            <input type="text" maxlength="30" required id="order_panel" placeholder=" City name"><br><br>
+                                            Mobile: <br>
+                                            <input type="text" required maxlength="10" id="order_panel"><br><br>
+                                            Email: <br>
+                                            <input type="email" id="order_panel" placeholder=" grocies@yahoo.lk"><br><br>
+                                            Catagory:<select name="categories" required>
+                                                <option>Visa</option>
+                                                <option>Debit</option>
+                                                <option>Credit</option></select><br><br>
+                                            Card Number: <br>
+                                            <input type="text" maxlength="16" required placeholder=" xxxx xxxx xxxx xxxx" id="order_panel"> <br><br>
+                                            Expire Date: <br>
+                                            <input type="date" required id="order_panel"><br><br>
+                                            Security Code: <br>
+                                            <input type="text" required id="order_panel"> 
+                                        </section>
+                                        
+                                    </fieldset>
                                 </fieldset>
-                                <fieldset>
-                                    <legend>Details and Payment method</legend>
-                                    Shopper Name:<input type="text" maxlength="30" required><br><br>
-                                    Address:<textarea rows="5" cols="25" required>Type your address</textarea><br><br>
-                                    Mobile:<input type="text" required maxlength="10"><br><br>
-                                    Email:<input type="email"><br><br>
-                                    Payment Method: Visa<input type="radio"> Credit<input type="radio"> Debit<input type="radio"><br><br>
-                                    Card Number:<input type="text" maxlength="16" required placeholder="xxxx xxxx xxxx xxxx"> 
-                                    Expire Date:<input type="date" required><br><br>
-                                    Security Code:<input type="text" required> 
-                                </fieldset>
-                            </fieldset>
-                                <input type="submit" value="Confirm the order">
-                                <input type="reset" value="Refill">
-                            
-                        </form>
-                    
-            
-            
-            
-            
-            
-            
-            
-                    </section>
-        </div>
+                                    <input type="submit" value="Confirm">
+                                    <input type="reset" value="Reset">
+                                
+                            </form>
+                        
+                
+                
+                
+                
+                
+                
+                
+                        </section> 
+</div>
 
            
 
@@ -111,7 +118,7 @@
 
             
        
-    </div>
+
         
 
 
