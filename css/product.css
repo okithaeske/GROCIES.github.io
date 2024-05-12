@@ -353,7 +353,7 @@
     width: 95%;
     box-shadow: 1px 1px 3px;
     text-align: justify;
-    background-color: rgb(167, 124, 69);
+    background-color:rgb(76, 162, 96);
     height: 85em;
     border-radius: 3px;
 
@@ -381,7 +381,11 @@
 /* dairy css cutomizations  */
 
 @media screen and (max-width: 600px){
-    .dairy_box{
+    #dairy_des{
+        height: 170em;
+    }
+    .dairy_des_box{
+        height: 170em;
         width: 95%;
         margin-left: auto;
         margin-right: auto;
@@ -406,6 +410,11 @@
         box-shadow: 1px 1px 3px;
        
     
+    }
+    .dairy_des_box_p1{
+        font-size: 2em;
+        margin-right: 1.5em;
+        text-align: justify;
     }
     .dairy_img{
         border: 1px solid black;

@@ -183,30 +183,25 @@
     height: 400px;
 }
 
+/* summary table css */
+.summary_container{
+    margin: 1em;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.smry_td{
+    border: 1px solid black;
+    width: 30% , 70%;
+    height: 3em;
+    font-size: 2em;
+}
+.smry_th{
+    border: 1px solid black;
+    height: 3em;
+    font-size: 2em;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
