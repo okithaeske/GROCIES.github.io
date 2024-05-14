@@ -130,13 +130,13 @@ h2{
 }
 .vege_p{
     font-size: 15px;
-    top: 25px;
-    left: 15px;
+    margin-top: 1em;
+    margin-left: 1em;
 }
 .vege_list{
     font-size: 15px;
     top:5px ;
-    left: 40px;
+    margin-left: 3em;
 }
 
 /* Daries description css*/
@@ -165,13 +165,13 @@ h2{
 }
 .dairy_p{
     font-size: 15px;
-    top: 25px;
-    left: 15px;
+    margin-top: 1em;
+    margin-left: 1em;
 }
 .dairy_list{
     font-size: 15px;
     top:5px ;
-    left: 40px;
+    margin-left: 3em;
 }
 .dairy_des_img{
     margin-right: 2em;
@@ -202,8 +202,8 @@ h2{
 }
 .cos_p{
     font-size: 15px;
-    top: 25px;
-    left: 15px;
+    margin-top: 1em;
+    margin-left: 1em;
 }
 .cos_des_img{
     margin-right: 2em;
