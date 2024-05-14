@@ -130,13 +130,11 @@ h2{
 }
 .vege_p{
     font-size: 15px;
-    position: relative;
     top: 25px;
     left: 15px;
 }
 .vege_list{
     font-size: 15px;
-    position: relative;
     top:5px ;
     left: 40px;
 }
@@ -167,13 +165,11 @@ h2{
 }
 .dairy_p{
     font-size: 15px;
-    position: relative;
     top: 25px;
     left: 15px;
 }
 .dairy_list{
     font-size: 15px;
-    position: relative;
     top:5px ;
     left: 40px;
 }
@@ -206,7 +202,6 @@ h2{
 }
 .cos_p{
     font-size: 15px;
-    position: relative;
     top: 25px;
     left: 15px;
 }
@@ -352,15 +347,14 @@ h2{
 }
 .vege_p{
     font-size: 15px;
-    position: relative;
+    /* position: relative; */
     top: 25px;
-    left: 15px;
+    margin-left: 1em;
 }
 .vege_list{
     font-size: 15px;
-    position: relative;
     top:5px ;
-    left: 40px;
+    margin-left: 2em;
 }
 
 /* Daries description css*/
@@ -389,15 +383,14 @@ h2{
 }
 .dairy_p{
     font-size: 15px;
-    position: relative;
     top: 25px;
-    left: 15px;
+    margin-left: 1em;
 }
 .dairy_list{
     font-size: 15px;
-    position: relative;
     top:5px ;
-    left: 40px;
+    margin-left: 2em;
+   
 }
 .dairy_des_img{
     margin-right: 2em;
@@ -435,9 +428,8 @@ h2{
 }
 .cos_p{
     font-size: 15px;
-    position: relative;
     top: 25px;
-    left: 15px;
+    margin-left: 1em;
 }
 .cos_des_img{
     margin-left: 2em;
@@ -458,16 +450,6 @@ h2{
 
 }
 
-@media screen and (max-width: 600px){
-
-
-    .navbar{
-        margin-right: 4em;
-    }
-    .icons{
-        margin-right: 4em;
-    }
-}
 
 
 

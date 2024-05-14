@@ -104,28 +104,20 @@ body{
 
 .footer-container{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 15px;
-    border-top: 1px solid;
-}b
+    grid-template-columns: 1fr 1.5fr 1fr;
+    
+}
 .footer-main-container{
-    width: 90%;
-    margin: auto;
+    background-color: white;
    
-
+}
+.footer-comp{
+    width: 95%;
+    margin: auto;
 }
 .logo-footer{
     width:70%;
     border-radius: 70%;
-}
-
-.br_name_footer{
-    width:200px;
-    color:#17B890;
-    font-family:"taviraj",sans-serif; 
-    font-weight:1000;
-    font-size:3em;
-    
 }
 .location,.mail,.call{
     font-size: 2em;
@@ -138,14 +130,25 @@ body{
     color:#17B890
 }
 .links-footer{
-    margin-top: 3em;
-    font-size: 2em;
-    color:black;
-    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2em;
+       
 }
 .footer-list{
+    margin-bottom: .5em;
     color: black;
-    padding:1em;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 2.5em;
+    height: 1.5em;
+    width: 55%;
+    border: 1px solid black;
+}
+.footer-list:hover{
+    background-color: black;
+    color: white;
 }
 .news{
     margin-bottom: .5em;
@@ -181,6 +184,7 @@ body{
 .rights-footer{
     text-align: center;
     font-size:1.5em;
+    margin-bottom: 2em;
 }
 
 
@@ -286,7 +290,7 @@ body{
         margin-left: 1em;
     }
     .icons{
-        margin-left: 27em;
+        margin-left: 25em;
     }
 }
 
@@ -454,19 +458,15 @@ body{
     display:flex;
     flex-direction: column;
     column-gap: 15px;
-    border-top: 1px solid;
-}
-.footer-main-container{
-    width: 90%;
-    margin: auto;
-   
-
 }
 .logo-footer{
     width:70%;
     border-radius: 70%;
 }
-
+.footer-comp{
+    width: 95%;
+    margin: auto;
+}
 .br_name_footer{
     width:200px;
     color:#17B890;
