@@ -196,12 +196,6 @@
     height: 3em;
     font-size: 2em;
 }
-.smry_th{
-    border: 1px solid black;
-    height: 3em;
-    font-size: 2em;
-
-}
 
 
 
@@ -222,6 +216,7 @@
 
 
 
+@media screen and (max-width: 600px){
 
 
 
@@ -304,6 +299,7 @@
     margin-top: 1em;
     font-size: 25px;
 
+}
 }
 
 
