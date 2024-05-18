@@ -101,6 +101,19 @@
     margin-left: auto;
     margin-right: auto;
 }
+.br_img{
+    display: flex;
+}
+.br_images{
+    width: 45%;
+    margin: 1em;
+    display: block;
+    height: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 1px solid black;
+}
 
 
 /* colombo branch*/
@@ -189,12 +202,15 @@
     width: 90%;
     margin-right: auto;
     margin-left: auto;
+    border: 1px solid black;
 }
 .smry_td{
     border: 1px solid black;
     width: 30% , 70%;
     height: 3em;
     font-size: 2em;
+    border-radius: 10px;
+    padding: 1em;
 }
 
 
@@ -239,7 +255,7 @@
     margin-top: .5;  
     margin-left: auto;
     margin-right: auto;
-    height: 90em;
+    height: 105em;
     display: flex;
     flex-direction: column;
 
@@ -300,6 +316,35 @@
     font-size: 25px;
 
 }
+
+/* table css */
+
+.smry_td{
+    border: 1px solid black;
+    width: 30% , 70%;
+    height: 2em;
+    font-size: 1.5em;
+    border-radius: 10px;
+  
+
+/* branch images */
+
+.br_img{
+    display: flex;
+    flex-direction: column;
+}
+.br_images{
+    width: 85%;
+    margin: 1em;
+    display: block;
+    height: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
 }
 
 
