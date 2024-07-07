@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,800&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top:2rem ;
+    scroll-behavior: smooth;
+    outline: none;
+    text-decoration: none;
+    transition: all .2s linear;
+
+}
+
+:root{
+    --green-color:#3cb815;
+    --light-green-color:#c0eb7b;
+    --orange-color:#ff7e00;    
+    --light-orange-color:#c0eb7b;    
+    --text-color:#1a2428;    
+    --bg-color:#fff;
+}
+
+img{
+    width: 100%;
+}
+body{
+    color: var(--text-color);
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--bg-color);
+    /* box-shadow: 0 8px ; */
+    padding: 20px 100px;
+    transition: 0.5s;
+    box-shadow: 0 9px 14px rgb(13, 55, 54/15%);
+
+}
+.profile{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    cursor: pointer;
+}
+.profile img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.profile span{
+    font-size: 13px;
+    font-weight: 500;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+    font-weight: 1000;
+    color: var(--text-color);
+    column-gap: 0.5rem;
+}
+.Logo .bx{
+    font-size:24px ;
+    font-weight: 800;
+} 
+.Navbar{
+    display: flex;
+    column-gap: 0.5rem;
+}
+.Navbar a{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+}
+.Navbar a:hover,
+.Navbar .home-active{
+    background: var(--green-color);
+    border-radius: 5rem;
+    color: var(--bg-color);
+    transition: background 0.5s;
+}
+#menue-icon{
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1001;
+    display: none;
+}
+
+
+/* making responsive */
+@media screen and (max-width: 600px) {
+    header{
+        padding: 100px 4%;
+        height: 8em;
+    }
+    #menue-icon{
+        display: initial;
+        
+    }
+    .Navbar{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -500%;
+        display: flex;
+        flex-direction: column;
+        background:var(--bg-color);
+        box-shadow: 4px 4px 0 4px rgb(14, 55, 54)/15%;
+        transition: 0.2s linear;
+        text-align: left;
+    }
+    .Navbar a{
+        padding: 1rem;
+        margin: 1rem;
+        display:block;
+    }
+    .Navbar a:hover,
+    .Navbar .home-active{
+        border-radius: 0.5rem;
+        color: var(--bg-color);
+    }
+    .profile span{
+        display: none;
+    }
+    .Navbar.active{
+       top: 101%;
+        
+    }
+}

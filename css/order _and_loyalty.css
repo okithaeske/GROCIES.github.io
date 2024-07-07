@@ -346,7 +346,7 @@
     margin-left: auto;
     margin-right: auto;
     box-shadow: 1px 1px 5px;
-    height: 140em;
+    height: 165em;
 }
 #tier{
 
@@ -420,6 +420,9 @@
 
  /* loyalty registration form */
 
+.loyalty_register{
+    margin-top: 10%;
+}
 
 .form{
     border: 1px solid black;

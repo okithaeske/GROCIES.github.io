@@ -85,7 +85,7 @@ h2{
     grid-template-columns: repeat(2,480px);
     grid-template-rows: repeat(2,270px)  
      
- }
+}
 
 .boxcontainer:hover{
     background-color: #9ab06d;
@@ -103,7 +103,7 @@ h2{
 }
 .vege_des{
     background-color:rgb(238, 229, 217);
-    height:600px;
+    height:700px;
     border-bottom: 1px solid black;
 }
 .vege_des_img{
@@ -143,7 +143,7 @@ h2{
 
 .dairy_des{
     background-color:rgb(238, 229, 217);
-    height:500px;
+    height:650px;
     border-bottom: 1px solid black;
 }
 .dairy_des{
@@ -322,7 +322,7 @@ h2{
 }
 .vege_des{
     background-color:rgb(238, 229, 217);
-    height:980px;
+    height:1250px;
     width: 100%;
     border-bottom: 1px solid black;
 }
@@ -363,7 +363,7 @@ h2{
 
 .dairy_des{
     background-color:rgb(238, 229, 217);
-    height:880px;
+    height:1100px;
     border-bottom: 1px solid black;
 }
 .dairy_des{
@@ -411,7 +411,7 @@ h2{
 /* cosmetics description css*/
 .cos_des{
     background-color:rgb(238, 229, 217);
-    height:640px;
+    height:850px;
 }
 .cos_des{
     display: flex;
@@ -482,10 +482,9 @@ h2{
 
 #panel{
     margin:1em;
-    margin-top: 4em;
-    font-size: 1em;
+    margin-top: 4em
     height: 80%;
-    border-radius: 5em;
+    border-radius:5em;
     
 }
 
@@ -516,7 +515,7 @@ h2{
 .panel_1_p{
     margin-left: 1em;
     margin-top: 1.5em;
-    font-size: 40px;
+    font-size: 35px;
     
 }
 
@@ -551,6 +550,13 @@ h2{
     margin-left: 1em;
     margin-top: 1em;
     font-size: 35px;
+
+}
+.panel_3_p{
+    text-align: center;
+    margin-top: 2em;
+    font-size: 20px;
+    font-size: 30px;
 
 }
 
@@ -780,13 +786,17 @@ h2{
 
     }
 
+    #dif_branches{
+        margin-top: 45%;
+    }
+
     /* table css */
 
     .smry_td{
         border: 1px solid black;
         width: 30% , 70%;
         height: 2em;
-        font-size: 1.5em;
+        font-size: 1.1em;
         border-radius: 10px;
     }
     
