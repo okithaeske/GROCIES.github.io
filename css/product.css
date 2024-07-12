@@ -158,6 +158,8 @@
 
 #vege_container{
     margin-top: 5em;
+    height: 92em;
+
 
 
 }
@@ -354,7 +356,7 @@
     box-shadow: 1px 1px 3px;
     text-align: justify;
     background-color:rgb(76, 162, 96);
-    height: 85em;
+    height: 110em;
     border-radius: 3px;
 
 }
