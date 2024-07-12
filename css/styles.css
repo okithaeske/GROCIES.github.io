@@ -67,6 +67,7 @@ header{
     font-weight: 1000;
     color: var(--text-color);
     column-gap: 0.5rem;
+    font-size: 3em;
 }
 .Logo .bx{
     font-size:24px ;
@@ -137,3 +138,131 @@ header{
         
     }
 }
+
+
+/* categories */
+.btn{
+    padding: o.6rem 1rem;
+    background: var(--green-color);
+    font-weight: 400;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    column-gap: 0.5rem;
+    width: 7em;
+    height: 5rem;
+    font-size: 2em;
+
+}
+.btn .bx{
+    padding: 4px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    border-radius: 1rem;
+    font-size: 20px;
+    margin: auto;
+
+} 
+.btn:hover{
+    background: var(--orange-color);
+    transition: 0.2s ease;
+}
+.category_h{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category_h h1{
+    font-size: 2em;
+    font-weight: 600;
+}
+.category_h span{
+    color: var(--green-color);
+}
+.categories{
+    max-width: 968px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.categories-container{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(3,240px);
+    gap: 2rem;
+    
+}
+.categories-container .box{
+    height: 30em;
+    position: relative;
+    align-items: center;
+    padding: 20px;
+    border-radius: 0.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5em;   
+}
+.categories-container .box img{
+    width: 95%;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+}
+.categories-container .box h2{
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+.categories-container .box span{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+
+}
+.categories-container .box .bx{
+    padding: 10px;
+    background: var(--green-color);
+    color: var(--bg-color);
+    border-radius: 5rem;
+    margin-top: 2rem;
+    position: absolute;
+    bottom: -8%;
+}
+.categories-container .box .bx:hover{
+    background: var(--orange-color);
+    transition: 0.2s all linear;
+}
+.categories-container .box:hover .bx{
+    display: block;
+    transition: 0.2s all linear;
+}
+.box1{
+    
+    background: #fef4ea;
+}
+.box2{
+    background: #fef4e3;
+}
+.box3{
+    background: #fef4e4;
+}
+.box4{
+    background: #fef4f9;
+}
+.box5{
+    background: #fef4e7;
+}
+.box6{
+    background: #f3f6;
+}
+@media screen and (max-width: 600px) {
+    .categories-container{
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: repeat(1,240px);
+        gap: 2rem;
+        
+    }
+}
+
+
+
