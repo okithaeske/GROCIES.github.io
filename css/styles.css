@@ -71,7 +71,7 @@ header{
 }
 .Logo .bx{
     font-size:24px ;
-    font-weight: 800;
+    font-weight: 1000;
 } 
 .Navbar{
     display: flex;
@@ -146,16 +146,20 @@ header{
     background: var(--green-color);
     font-weight: 400;
     border-radius: 5rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     align-items: center;
     /* justify-content: space-between; */
     column-gap: 0.5rem;
     width: 7em;
     height: 5rem;
     font-size: 2em;
+    text-align: center;
+
 
 }
 .btn .bx{
+    
     padding: 4px;
     background: var(--bg-color);
     color: var(--text-color);
@@ -187,6 +191,7 @@ header{
 }
 .categories-container{
     display: grid;
+    height: 78em;
     justify-content: space-evenly;
     grid-template-columns: repeat(3,240px);
     gap: 2rem;
@@ -219,13 +224,17 @@ header{
 
 }
 .categories-container .box .bx{
+    left: 9em;
+    width: 50px;
     padding: 10px;
+    text-align: center;
+    margin: 0 auto;
     background: var(--green-color);
     color: var(--bg-color);
-    border-radius: 5rem;
+    border-radius: 100rem;
     margin-top: 2rem;
     position: absolute;
-    bottom: -8%;
+    bottom: -12%;
 }
 .categories-container .box .bx:hover{
     background: var(--orange-color);
