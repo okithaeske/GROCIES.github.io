@@ -151,7 +151,7 @@ header{
     align-items: center;
     /* justify-content: space-between; */
     column-gap: 0.5rem;
-    width: 7em;
+    width: 10em;
     height: 5rem;
     font-size: 2em;
     text-align: center;
@@ -265,7 +265,83 @@ header{
         display: grid;
         justify-content: space-evenly;
         grid-template-columns: repeat(1,240px);
-        gap: 2rem;
+        height: 300em;
+        
+    }
+}
+
+/* new order page */
+
+.set{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    background: var(--bg-color);
+    border-radius: 5rem;
+    margin-bottom: 90px !important;
+  
+}
+.feild{
+    padding: 100px;
+    text-align: center;
+    width: 90%;
+    height: auto;
+    font-size: 1.5em;
+    margin: 0 auto;
+   
+    
+}
+
+.checkbox-item {
+    
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.checkbox-item input[type="number"] {
+    margin-left: 10px;
+    width: 50px;
+}
+#totalPriceContainer {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 10em;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+#resultTableContainer {
+    display: none;
+}
+.table_class_order tr:hover {
+    background-color: grey ;
+    color: white;
+    opacity: 0.6;
+
+}
+@media screen and (max-width: 600px) {
+    .feild{
+        padding: 50px;
+        text-align: left;
+        width: 100%;
+        height: auto;
+        font-size: 1.5em;
+        margin: 0 auto;
+       
         
     }
 }

@@ -92,6 +92,7 @@ h2{
 }
 .container{
     width: 100%;
+    margin-top: .6rem;
 }
 
 /* item description*/

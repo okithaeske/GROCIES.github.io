@@ -10,15 +10,14 @@
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+    margin-bottom: 1em;
+    height: 100em;
     
 
 }
-.order_set{
-    display: flex;
-}
 #set{
     margin: 1em;
-    width: 50%;
+    width: 90%;
     border: none;
     box-shadow: 1px 1px 3px;
 }
@@ -51,26 +50,6 @@
     height: 2em;
 }
 
-.sbmt{
-    margin-left: 59.7%;
-    width: 20%;
-    height: 2.5em;
-    border-radius: 40px;
-    
-}
-.sbmt:hover{
-    background-color: blue;
-}
-.rst{
-    margin-top: 1em;
-    margin-bottom: 1em;
-    width: 20%;
-    height: 2.5em;
-    border-radius: 40px;
-}
-.rst:hover{
-    background-color: blue;
-}
 
 .feild_1_head{
     font-size: 1.5em;
@@ -80,6 +59,37 @@
 .feild_1{
     margin-left: 2em;
     font-size: 2em;
+}
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.checkbox-item input[type="number"] {
+    margin-left: 10px;
+    width: 50px;
+}
+#totalPriceContainer {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+/*table customisation */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+#resultTableContainer {
+    display: none;
 }
 
 
