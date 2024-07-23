@@ -1,5 +1,4 @@
 
-
 const optionList = document.getElementById('optionList');
 const checkboxContainer = document.getElementById('checkboxContainer');
 const totalPriceContainer = document.getElementById('totalPriceContainer');
@@ -7,6 +6,10 @@ const confirmButton = document.getElementById('confirmButton');
 const resultTableContainer = document.getElementById('resultTableContainer');
 const resultTable = document.getElementById('resultTable').querySelector('tbody');
 const tableTotalPrice = document.getElementById('tableTotalPrice');
+const addToFavoriteButton = document.getElementById('addToFavoriteButton');
+const useFavoriteButton = document.getElementById('useFavoriteButton');
+const resetButton = document.getElementById('resetButton');
+const viewSelectedButton = document.getElementById('viewSelectedButton');
 
 
 // order page
@@ -75,7 +78,7 @@ const checkboxes = {
         { label: 'Lakme Absolute Hydra Pro Gel 50g', price: 2484 },
         { label: 'Lakme Absolute Perfect Serum 30ml', price: 1951 }
     ]
-   
+
 };
 
 const selections = {
@@ -91,7 +94,7 @@ function updateTotalPrice() {
         const checkbox = item.querySelector('input[type="checkbox"]');
         const quantity = item.querySelector('input[type="number"]').value;
         const price = checkbox.dataset.price;
-        
+
         if (checkbox.checked) {
             totalPrice += quantity * price;
         }
@@ -114,24 +117,26 @@ function updateTable() {
     for (const [option, items] of Object.entries(selections)) {
         items.forEach(item => {
             const row = document.createElement('tr');
-            
+
             const productCell = document.createElement('td');
             productCell.textContent = item.label;
-            
+
             const quantityCell = document.createElement('td');
             quantityCell.textContent = item.quantity;
-            
+
             const priceCell = document.createElement('td');
             priceCell.textContent = `Rs.${(item.quantity * item.price).toFixed(2)}`;
-            
+
             row.appendChild(productCell);
             row.appendChild(quantityCell);
             row.appendChild(priceCell);
-            
+
             resultTable.appendChild(row);
-            
+
             grandTotalPrice += item.quantity * item.price;
+
         });
+
     }
 
     tableTotalPrice.textContent = `Rs.${grandTotalPrice.toFixed(2)}`;
@@ -149,12 +154,12 @@ function confirmSelection() {
     const selectedOption = optionList.value;
     const items = checkboxContainer.querySelectorAll('.checkbox-item');
     selections[selectedOption] = []; // Clear existing selections for the selected option
-    
+
     items.forEach(item => {
         const checkbox = item.querySelector('input[type="checkbox"]');
         const quantity = item.querySelector('input[type="number"]').value;
         const price = checkbox.dataset.price;
-        
+
         if (checkbox.checked && quantity > 0) {
             selections[selectedOption].push({
                 label: checkbox.name,
@@ -168,12 +173,41 @@ function confirmSelection() {
 }
 
 
+function addToFavorites() {
+    localStorage.setItem('favorites', JSON.stringify(selections));
+}
 
-optionList.addEventListener('change', function() {
-    const selectedOption = optionList.value;
-    
+function useFavorites() {
+    const favorites = JSON.parse(localStorage.getItem('favorites'));
+    if (favorites) {
+        Object.assign(selections, favorites);
+        updateTable();
+    } else {
+        alert('No favorites found!');
+    }
+}
+
+function resetSelections() {
+    for (const option in selections) {
+        selections[option] = [];
+    }
+    updateTable();
+    totalPriceContainer.textContent = ' Price: $0';
     checkboxContainer.innerHTML = ''; // Clear existing checkboxes
-    
+    optionList.value = ''; // Reset select box
+}
+
+function viewSelectedItems() {
+    localStorage.setItem('selectedItems', JSON.stringify(selections));
+    window.location.href = 'payment_method.html';
+}
+
+
+optionList.addEventListener('change', function () {
+    const selectedOption = optionList.value;
+
+    checkboxContainer.innerHTML = ''; // Clear existing checkboxes
+
     if (checkboxes[selectedOption]) {
         checkboxes[selectedOption].forEach(item => {
             const checkboxItem = document.createElement('div');
@@ -202,10 +236,16 @@ optionList.addEventListener('change', function() {
             checkboxItem.appendChild(checkbox);
             checkboxItem.appendChild(checkboxLabel);
             checkboxItem.appendChild(numberInput);
-            
+
             checkboxContainer.appendChild(checkboxItem);
         });
     }
 });
 
 confirmButton.addEventListener('click', confirmSelection);
+addToFavoriteButton.addEventListener('click', addToFavorites);
+useFavoriteButton.addEventListener('click', useFavorites);
+resetButton.addEventListener('click', resetSelections);
+viewSelectedButton.addEventListener('click', viewSelectedItems);
+
+

@@ -7,19 +7,23 @@
     font-size: 4em;
 }
 .order{
+    height: 140em;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 80%;
     margin-bottom: 1em;
-    height: 100em;
+    margin-top: 1em;
+    margin-bottom: 90px !important;
     
-
 }
 #set{
-    margin: 1em;
-    width: 90%;
-    border: none;
-    box-shadow: 1px 1px 3px;
+    height: 109em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-bottom: 90px !important;
 }
 .feild_2{
     margin-left: 2em;
@@ -88,10 +92,9 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
-#resultTableContainer {
-    display: none;
+#resultTableContainer{
+    margin-top: 20em;
 }
-
 
 @media screen and (max-width: 600px){
     #set{
