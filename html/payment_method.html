@@ -98,17 +98,17 @@
                     <section class="feild_2">
                         <legend class="feild_2_head">Payment Detail Methods</legend> <br>
                         Name: <br>
-                        <input type="text" maxlength="30" required id="order_panel" placeholder=" First name">
-                        <input type="text" maxlength="30" required id="order_panel" placeholder=" Last name">
-                        <br><br>
+                        <input type="text" maxlength="30" required class="order_panel" id="name" placeholder=" Enter your name">
+        
+                        <br>
                         Address: <br>
-                        <input type="text" maxlength="30" required id="order_panel_tog" placeholder=" Street number">
-                        <input type="text" maxlength="30" required id="order_panel_tog" placeholder=" Street name"> <br>
-                        <input type="text" maxlength="30" required id="order_panel" placeholder=" City name"><br><br>
+                        <input type="tel" maxlength="5" required class="order_panel_tog" id="street_no"  placeholder=" Street number">
+                        <input type="text" maxlength="30" required class="order_panel_tog" id="street_name" placeholder=" Street name"> <br>
+                        <input type="text" maxlength="30" required class="order_panel"  id="city_name" placeholder=" City name"><br><br>
                         Mobile: <br>
-                        <input type="text" required maxlength="10" id="order_panel"><br><br>
+                        <input type="tel" required maxlength="10" id="tel_no" class="order_panel"><br><br>
                         Email: <br>
-                        <input type="email" id="order_panel" placeholder=" grocies@yahoo.lk"><br><br>
+                        <input type="email" class="order_panel" placeholder=" grocies@yahoo.lk"><br><br>
                         Catagory:
                         <select name="categories" required class="slct_opt">
                             <option>Visa</option>
@@ -116,18 +116,20 @@
                             <option>Credit</option>
                         </select><br><br>
                         Card Number: <br>
-                        <input type="text" maxlength="16" required placeholder=" xxxx xxxx xxxx xxxx" id="order_panel">
+                        <input type="text" maxlength="16" required placeholder=" xxxx xxxx xxxx xxxx" id="Card_name" class="order_panel">
                         <br><br>
                         Expire Date: <br>
-                        <input type="date" required id="order_panel"><br><br>
+                        <input type="date" required class="order_panel"><br><br>
                         Security Code: <br>
-                        <input type="text" required id="order_panel">
+                        <input type="text" required class="order_panel"><br><br>
+
+                        <button type="submit" id="payment_submit">submit</button>
+                        <button type="reset">Reset</button>
                     </section>
 
                 </fieldset>
+
                 </fieldset>
-                <input type="reset" value="Reset" class="rst">
-                <input type="submit" value="Confirm" class="sbmt">
 
 
             </form>

@@ -353,7 +353,6 @@ table {
     margin-right: auto;
     bottom: 10em;
     padding: 2em;
-    font-size: 1.5em;
     
 }
 th, td {
@@ -364,6 +363,9 @@ th, td {
 }
 th {
     background-color: #f2f2f2;
+}
+#ResultTableContainer {
+    font-size: 1.8em;
 }
 
 

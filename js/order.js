@@ -12,6 +12,7 @@ const resetButton = document.getElementById('resetButton');
 const viewSelectedButton = document.getElementById('viewSelectedButton');
 
 
+
 // order page
 
 
@@ -192,7 +193,7 @@ function resetSelections() {
         selections[option] = [];
     }
     updateTable();
-    totalPriceContainer.textContent = ' Price: $0';
+    totalPriceContainer.textContent = ' Price: Rs.0';
     checkboxContainer.innerHTML = ''; // Clear existing checkboxes
     optionList.value = ''; // Reset select box
 }
@@ -202,8 +203,7 @@ function viewSelectedItems() {
     window.location.href = 'payment_method.html';
 }
 
-
-optionList.addEventListener('change', function () {
+function createCheckboxes () {
     const selectedOption = optionList.value;
 
     checkboxContainer.innerHTML = ''; // Clear existing checkboxes
@@ -240,8 +240,9 @@ optionList.addEventListener('change', function () {
             checkboxContainer.appendChild(checkboxItem);
         });
     }
-});
+}
 
+optionList.addEventListener('change',createCheckboxes );
 confirmButton.addEventListener('click', confirmSelection);
 addToFavoriteButton.addEventListener('click', addToFavorites);
 useFavoriteButton.addEventListener('click', useFavorites);
