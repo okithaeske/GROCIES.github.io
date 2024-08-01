@@ -378,6 +378,16 @@ th {
     border: none;
 
 }
+@media screen and (max-width: 600px) {
+    .order_page_buttons{
+    
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        gap: 1em;
+    }
+
+ 
+}
 .order_page_buttons button:active{
     transform: scale(0.96);
 }
