@@ -9,7 +9,7 @@ const tableTotalPrice = document.getElementById('tableTotalPrice');
 const addToFavoriteButton = document.getElementById('addToFavoriteButton');
 const useFavoriteButton = document.getElementById('useFavoriteButton');
 const resetButton = document.getElementById('resetButton');
-const viewSelectedButton = document.getElementById('viewSelectedButton');
+const PaynowButton = document.getElementById('viewSelectedButton');
 
 
 
@@ -250,6 +250,6 @@ confirmButton.addEventListener('click', confirmSelection);
 addToFavoriteButton.addEventListener('click', addToFavorites);
 useFavoriteButton.addEventListener('click', useFavorites);
 resetButton.addEventListener('click', resetSelections);
-viewSelectedButton.addEventListener('click', viewSelectedItems);
+PaynowButton.addEventListener('click', viewSelectedItems);
 
 

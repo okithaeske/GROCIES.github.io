@@ -367,6 +367,20 @@ th {
 #ResultTableContainer {
     font-size: 1.8em;
 }
+.order_page_buttons button{
+    color: #fff;
+    padding: 8px 22px;
+    border-radius:  6px;
+    background: #7d2aeB;
+    transition: all 0.2s ease;
+    border: none;
+
+}
+.order_page_buttons button:active{
+    transform: scale(0.96);
+}
+
+
 
 
 
