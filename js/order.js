@@ -221,6 +221,8 @@ function createCheckboxes () {
             checkbox.id = item.label;
             checkbox.name = item.label;
             checkbox.dataset.price = item.price;
+            checkbox.className = 'check'
+        
 
             const checkboxLabel = document.createElement('label');
             checkboxLabel.htmlFor = item.label;
